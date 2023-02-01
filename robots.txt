@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://arnaudon.github.io/sitemap.xml
