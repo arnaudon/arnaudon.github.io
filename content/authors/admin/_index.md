@@ -50,5 +50,5 @@ title: Alexis Arnaudon
 first_name: Alice
 email: ""
 ---
-Alice Wu is postdoctoral researcher in cells team at Blue Brain Project.
+Alexis Arnaudon is postdoctoral researcher in cells team at Blue Brain Project.
 {style="text-align: justify;"}
