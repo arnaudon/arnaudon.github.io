@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: 1950s 
-  theme_night: 1950s
+  theme_night: dark
   font: classic 
   font_size: L
 
