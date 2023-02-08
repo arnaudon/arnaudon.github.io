@@ -12,16 +12,6 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: education
-    content: 
-      title: Education
-      items:
-        - title: PhD in Mathematics
-          company: Imperial College London
-          location: London
-          date_start: '2013-09-01'
-          date_end: '2017-09-01'
-
   - block: experience
     content:
       title: Experience
@@ -40,14 +30,18 @@ sections:
           date_start: '2019-09-01'
           date_end: ''
           description: |2-
-              Postdoctoral researcher within the Blue Brain Project, working on neuron models.
+              Postdoctoral researcher within the Blue Brain Project
+
+              I work on neuron models.
         - title: Postdoctoral researcher
           company: Imperial College London
           location: London
           date_start: '2017-09-01'
           date_end: '2019-09-01'
           description: |2-
-              Postdoctoral researcher within the research centre EPSRC Mathematics for Precision Medicine, working on network theory.
+              Postdoctoral researcher within the research centre EPSRC Mathematics for Precision Medicine. 
+
+              I was working on network theory.
     design:
       columns: '2'
   - block: accomplishments
