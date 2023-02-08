@@ -12,22 +12,16 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: features
-    content:
-      title: Skills
+  - block: education
+    content: 
+      title: Education
       items:
-        - name: python
-          description: 90%
-          icon: python-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+        - title: PhD in Mathematics
+          company: Imperial College London
+          location: London
+          date_start: '2013-09-01'
+          date_end: '2017-09-01'
+
   - block: experience
     content:
       title: Experience
@@ -40,27 +34,20 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Postdoctoral researcher
+          company: EPFL
+          location: Lausanne
+          date_start: '2019-09-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              Postdoctoral researcher within the Blue Brain Project, working on neuron models.
+        - title: Postdoctoral researcher
+          company: Imperial College London
+          location: London
+          date_start: '2017-09-01'
+          date_end: '2019-09-01'
+          description: |2-
+              Postdoctoral researcher within the research centre EPSRC Mathematics for Precision Medicine, working on network theory.
     design:
       columns: '2'
   - block: accomplishments
