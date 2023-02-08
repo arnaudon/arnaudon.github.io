@@ -5,55 +5,6 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.avatar
-    id: about
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      # Override your bio text from `authors/admin/_index.md`?
-      text:
-      
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Postdoctoral researcher
-          company: EPFL
-          location: Lausanne
-          date_start: '2019-09-01'
-          date_end: ''
-          description: |2-
-              Postdoctoral researcher within the Blue Brain Project
-
-              I work on neuron models.
-        - title: Postdoctoral researcher
-          company: Imperial College London
-          location: London
-          date_start: '2017-09-01'
-          date_end: '2019-09-01'
-          description: |2-
-              Postdoctoral researcher within the research centre EPSRC Mathematics for Precision Medicine. 
-
-              I was working on network theory.
-        - title: PhD in Mathematics
-          company: Imperial College London
-          location: London
-          date_start: '2013-09-01'
-          date_end: '2017-09-01'
-          description: |2-
-              Phd in Mathematics under the suprevision of Prof. Holm.
-
-              I worked on gemetric mechanics with noise and shape analysis.
-    design:
-      columns: '2'
   - block: collection
     id: posts
     content:
@@ -108,6 +59,55 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: about.avatar
+    id: about
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      # Override your bio text from `authors/admin/_index.md`?
+      text:
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Postdoctoral researcher
+          company: EPFL
+          location: Lausanne
+          date_start: '2019-09-01'
+          date_end: ''
+          description: |2-
+              Postdoctoral researcher within the Blue Brain Project
+
+              I work on neuron models.
+        - title: Postdoctoral researcher
+          company: Imperial College London
+          location: London
+          date_start: '2017-09-01'
+          date_end: '2019-09-01'
+          description: |2-
+              Postdoctoral researcher within the research centre EPSRC Mathematics for Precision Medicine. 
+
+              I was working on network theory.
+        - title: PhD in Mathematics
+          company: Imperial College London
+          location: London
+          date_start: '2013-09-01'
+          date_end: '2017-09-01'
+          description: |2-
+              Phd in Mathematics under the suprevision of Prof. Holm.
+
+              I worked on gemetric mechanics with noise and shape analysis.
+    design:
+      columns: '2'
+  
   - block: collection
     id: featured
     content:
